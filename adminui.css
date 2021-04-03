@@ -1,0 +1,213 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #e4edf9;
+}
+
+@keyframes anim1
+{
+	from
+	{
+		left: -30%;
+	}
+	to
+	{
+		left: 0%;
+	}
+}
+
+@keyframes anim2
+{
+	from
+	{
+		left: -30%;
+	}
+	to
+	{
+		left: 15%;
+	}
+}
+.sidenav
+{
+	position: absolute;
+	left: -30%;
+	width: 13%;
+	height: 100%;
+	background-color: #616467;
+	transition: 1s;
+	animation: anim1 forwards 1s;
+}
+.items
+{
+	position: relative;
+	top: 20%;
+	text-align: center;
+}
+.dash
+{
+	position: absolute;
+	left: -30%;
+	top: 3%;
+	text-transform: uppercase;
+	font-size: 30px;
+	animation: anim2 1s forwards 1s;
+
+}
+
+.items a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.items h1
+{
+	color: #61f7e8;
+	text-transform: uppercase;
+	font-weight: 500;
+	top: 5%;
+}
+a:hover
+{
+	color: #265489;
+
+}
+
+@keyframes anim3
+{
+	from
+	{
+		color: transparent;
+	}
+	to
+	{
+		color: black;
+	}
+}
+
+.head
+{
+	position: absolute;
+	color: transparent;
+	left: 15%;
+	font-size: 20px;
+	top: 15%;
+	animation: anim3 1s forwards 1s;
+
+
+}
+@keyframes anim5
+{
+	from
+	{
+		color: transparent;
+		background-color: #e4edf9;
+	}
+	to
+	{
+		color: black;
+		background-color: white;
+	}
+}
+
+.user
+{
+	position: absolute;
+	color: transparent;
+	text-align: center;
+	left: 16%;
+	top: 30%;
+	width: 180px;
+	z-index: 50px;
+	border: 1px solid #bdc3c7;
+	border-collapse: collapse;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+	animation: anim5 1s forwards 1s;
+}
+
+.user:hover
+{
+	background-color: white;
+	transition: 0.5s;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+}
+
+.doctor
+{
+	position: absolute;
+	color: transparent;
+	text-align: center;
+	left: 30%;
+	top: 30%;
+	width: 180px;
+	z-index: 50px;
+	border: 1px solid #bdc3c7;
+	border-collapse: collapse;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+	animation: anim5 1s forwards 1s;
+}
+.doctor:hover
+{
+
+	background-color: white;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+}
+.hs
+{
+	position: absolute;
+	color: transparent;
+	text-align: center;
+	left: 44%;
+	top: 30%;
+	width: 180px;
+	z-index: 50px;
+	border: 1px solid #bdc3c7;
+	border-collapse: collapse;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+	animation: anim5 1s forwards 1s;
+}
+.hs:hover
+{
+	background-color: white;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.2);
+}
+@keyframes anim4
+{
+	from
+	{
+		color: transparent;
+	}
+	to
+	{
+		color: #126589;
+	}
+}
+
+.user a
+{
+	text-align: center;
+	text-decoration: none;
+	color: transparent;
+	animation: anim4 1s forwards 1s;
+
+}
+.doctor a
+{
+	text-align: center;
+	text-decoration: none;
+	color: transparent;
+	animation: anim4 1s forwards 1s;
+}
+.hs a
+{
+	text-align: center;
+	text-decoration: none;
+	color: transparent;
+	animation: anim4 1s forwards 1s;
+}
+
